@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    height: 7vw;
+}
+
+#logo img {
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#flexContainer {
+    width: 80vw;
+    height: 73vh;
+    margin: 0 auto;
+    background-color: #099dfd;
+    display: flex;
+    flex-direction: flow;
+    box-shadow: 5px 8px 18px #a5a5a5;
+}
+
+#leftPane {
+    width: 50%;
+}
+
+#text1 {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 1.4rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rightPane {
+    color: black;
+    background-color: white;
+    width: 50%;
+}
+
+#text2 {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    margin-top: 20%;
+    margin-bottom: 20px;
+}
+
+#text2 em {
+    color: #099dfd;
+    font-style: normal;
+}
+
+#highlight {
+    color: #099dfd;
+}
+
+#imageHolder img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 13%;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 62%;
+    margin-left: 19%;
+    margin-right: auto;
+    border: 1px solid #099dfd;
+    border-radius: 5px;
+    padding: 4px 3;
+}
+
+button {
+    background-color: #099dfd;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    padding: 7px 17px;
+    margin-left: 19%;
+}
